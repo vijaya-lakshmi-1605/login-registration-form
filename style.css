@@ -1,0 +1,41 @@
+body {
+    background-color: lightblue;
+    margin: 100px;
+  }
+  
+  h1 {
+    font-family: Bold;
+    text-align: center;
+    color: black;
+  }
+  
+  form {
+    background-color: white;
+    padding: 100px;
+    border-radius: 100px;
+    width: 300px;
+    margin: 0 auto;
+  }
+  pre {
+    font-family: Bold;
+    color: black;
+    font-size: 30px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+      
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 3px solid black;
+    border-radius: 10px;
+  }
+  button {
+      background-color: lightgreen;
+      font-family: Bold;
+      font-size:20px;
+      border-radius: 10px;
+      width:100px;
+      padding:10px 20px;
+  }

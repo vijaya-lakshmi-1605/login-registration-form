@@ -1,0 +1,57 @@
+body {  
+    font-family: Calibri; 
+    background-color:white;  
+  }  
+    
+  .container {  
+    padding: 50px;  
+    background-color:lightblue ;  
+  }  
+  
+  input[type=text], input[type=password], textarea {  
+    width: 100%;  
+    padding: 15px;  
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #EFEFF1;
+  } 
+  
+  input[type=int] {
+      width: 100px;
+      height:30px;
+      margin-right: 30px;
+      background: #EFEFF1;
+      border: none;
+  }
+  
+  input[type=date] {
+    width: 150px;
+    height: 40px;
+    background: #EFEFF1;
+    border: none;
+  } 
+  
+  input[type=text]:focus, input[type=password]:focus, textarea:focus, input[type=date]:focus, input[type=int]:focus {  
+    background-color: white;  
+    outline: solid #999;  
+  }
+  
+  .date-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .registerbtn {  
+    background-color: green;  
+    color: white;  
+    padding: 10px 10px;  
+    margin: 10px auto;
+    border: black;  
+    cursor: pointer;  
+    width: 50%;  
+    opacity: 0.6;
+    display: block;
+  }
+  .registerbtn:hover {  
+    opacity: 1;  
+  }
